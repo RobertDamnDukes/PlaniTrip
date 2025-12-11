@@ -21,7 +21,7 @@ export default function App() {
     });
   }
 
-  useEffect(() => {  
+  useEffect(() => {
     listTodos();
   }, []);
 
@@ -32,19 +32,22 @@ export default function App() {
   }
 
   return (
-    <main>
+    <div>
       <div className="upper-navbar"></div>
-      <h1>My todos</h1>
-      <button onClick={createTodo}>+ new</button>
-      <ul>
-        {todos.map((todo) => (
-          <li key={todo.id}>{todo.content}</li>
-        ))}
-      </ul>
-      <div>
-        🥳 App successfully hosted. Try creating a new todo.
-        <br />
-      </div>
-    </main>
+      <main>
+        <h1>My todos</h1>
+        <button onClick={createTodo}>+ new</button>
+        <ul>
+          {todos.map((todo) => (
+            <li key={todo.id}>{todo.content}</li>
+          ))}
+        </ul>
+        <div>
+          🥳 App successfully hosted. Try creating a new todo.
+          <br />
+        </div>
+      </main>
+
+    </div>
   );
 }
