@@ -67,6 +67,7 @@ body {
     border-bottom: 1px solid var(--hover-color);
     width: 100vw;
     height: 10vh;
+    color: var(--text-color);
   }
 
   .upper-navbar ul {
