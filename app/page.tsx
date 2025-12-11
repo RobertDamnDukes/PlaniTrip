@@ -34,11 +34,13 @@ export default function App() {
   return (
     <div>
       <nav className="upper-navbar">
-        <ul><a>Home</a></ul>
-        <ul><a>Day Planner</a></ul>
-        <ul><a>Travel</a></ul>
-        <ul><a>Settings</a></ul>
-        <ul><a>login</a></ul>
+        <ul>
+          <a>Home</a>
+          <a>Day Planner</a>
+          <a>Travel</a>
+          <a>Settings</a>
+          <a>login</a>
+        </ul>
       </nav>
       <main>
         <h1>My todos</h1>
