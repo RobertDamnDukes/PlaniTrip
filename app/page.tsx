@@ -35,7 +35,7 @@ export default function App() {
     <div>
       <nav className="upper-navbar">
         <ul>
-          <a classNam="home-li">Home</a>
+          <a className="home-li">Home</a>
           <a>Day Planner</a>
           <a>Travel</a>
           <a>Settings</a>
