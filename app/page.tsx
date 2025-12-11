@@ -13,19 +13,19 @@ Amplify.configure(outputs);
 const client = generateClient<Schema>();
 
 export default function App() {
-  const [todos, setTodos] = useState<Array<Schema["Todo"]["type"]>>([]);
+  const [todos, setTodos] = useState<Array<Schema["Todo"]["type"]>>([]); // I think this sets the variables to hold the value of a table row
 
-  function listTodos() {
+  function listTodos() { // this is how we pull from our tables. pulls from Todo with the observe query, then subscribes to that table subset
     client.models.Todo.observeQuery().subscribe({
       next: (data) => setTodos([...data.items]),
     });
   }
 
-  useEffect(() => {
+  useEffect(() => {  
     listTodos();
   }, []);
 
-  function createTodo() {
+  function createTodo() {  // calls for the dialoge that gets a user input and sends it to the Todo table
     client.models.Todo.create({
       content: window.prompt("Todo content"),
     });
@@ -33,6 +33,7 @@ export default function App() {
 
   return (
     <main>
+      <div class="upper-navbar"></div>
       <h1>My todos</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
