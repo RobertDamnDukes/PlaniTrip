@@ -33,7 +33,13 @@ export default function App() {
 
   return (
     <div>
-      <div className="upper-navbar"></div>
+      <nav className="upper-navbar">
+        <ul><a>Home</a></ul>
+        <ul><a>Day Planner</a></ul>
+        <ul><a>Travel</a></ul>
+        <ul><a>Settings</a></ul>
+        <ul><a>login</a></ul>
+      </nav>
       <main>
         <h1>My todos</h1>
         <button onClick={createTodo}>+ new</button>
