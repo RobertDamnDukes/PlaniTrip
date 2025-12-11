@@ -73,6 +73,7 @@ body {
   .upper-navbar ul {
     list-style: none;
     display: flex;
+    color: var(--text-color);
   }
 
   .home-li {
