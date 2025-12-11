@@ -63,8 +63,17 @@ body {
   }
 
   .upper-navbar {
-    background-color: black;
+    background-color: var(--primary-color);
+    border-bottom: 1px solid var(--hover-color);
     width: 100vw;
     height: 10vh;
-    color:rgb(255, 255, 255);
+  }
+
+  .upper-navbar ul {
+    list-style: none;
+    display: flex;
+  }
+
+  .home-li {
+    margin: auto;
   }

@@ -13,6 +13,10 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: #6649AE;
   --card-border-rgb: 131, 134, 135;
+  --primary-color: #11121a;
+  --hover-color: #272832;
+  --accent-color: #0071FF;
+  --text-color: #c9c9c9;
 }
 
 @media (prefers-color-scheme: dark) {
