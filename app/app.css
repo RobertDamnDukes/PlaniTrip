@@ -1,3 +1,6 @@
+
+@import url("mglobal.css");
+
 body {
     margin: 0;
     background: linear-gradient(180deg, rgb(55, 82, 255), rgb(255, 255, 255));
