@@ -1,91 +1,105 @@
-
 @import url("globals.css");
 
 body {
-    margin: 0;
-    background: linear-gradient(180deg, rgb(55, 82, 255), rgb(255, 255, 255));
-    display: flex;
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    height: 100vh;
-    width: 100vw;
-  }
-  
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-  }
-  
-  button {
-    border-radius: 8px;
-    border: 1px solid transparent;
-    padding: 0.6em 1.2em;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: inherit;
-    background-color: #1a1a1a;
-    cursor: pointer;
-    transition: border-color 0.25s;
-    color: white;
-  }
-  button:hover {
-    border-color: #646cff;
-  }
-  button:focus,
-  button:focus-visible {
-    outline: 4px auto -webkit-focus-ring-color;
-  }
-  
-  ul {
-    padding-inline-start: 0;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    margin: 8px 0;
-    border: 1px solid black;
-    gap: 1px;
-    background-color: black;
-    border-radius: 8px;
-    overflow: auto;
-  }
-  
-  li {
-    background-color: white;
-    padding: 8px;
-  }
-  
-  li:hover {
-    background: #dadbf9;
-  }
-  
-  a {
-    font-weight: 800;
-    text-decoration: none;
-  }
+  margin: 0;
+  background: linear-gradient(180deg, rgb(55, 82, 255), rgb(255, 255, 255));
+  display: flex;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
 
-  .upper-navbar {
-    background-color: var(--primary-color);
-    border-bottom: 1px solid var(--hover-color);
-    width: 100vw;
-    height: 10vh;
-    color: var(--text-color);
-  }
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
 
-  .upper-navbar ul {
-    list-style: none;
-    display: flex;
-    color: var(--text-color);
-  }
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: white;
+}
 
-  .upper-navbar a {
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+ul {
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0;
+  border: 1px solid black;
+  gap: 1px;
+  background-color: black;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+li {
+  background-color: white;
+  padding: 8px;
+}
+
+li:hover {
+  background: #dadbf9;
+}
+
+a {
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.upper-navbar {
+  background-color: var(--primary-color);
+  border-bottom: 1px solid var(--hover-color);
+  width: 100vw;
+  height: 10vh;
   color: var(--text-color);
 }
+
+.upper-navbar ul {
+  list-style: none;
+  display: flex;
+  color: var(--text-color);
+}
+
+.upper-navbar a {
+  color: var(--text-color);
+}
+
 .upper-navbar a:hover {
   color: var(--accent-color);
 }
 
-  .home-li {
-    margin: auto;
-  }
+.home-li {
+  margin-right: auto;
+}
+
+nav a {
+  display: flex;
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 1em 2em;
+  transition: background-color 150ms ease;
+}
+
+nav a:hover {
+  background-color: var(--hover-color);
+}
