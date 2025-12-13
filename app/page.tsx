@@ -35,11 +35,11 @@ export default function App() {
     <div>
       <nav className="upper-navbar">
         <ul>
-          <a className="home-li">Home</a>
-          <a>Day Planner</a>
-          <a>Travel</a>
-          <a>Settings</a>
-          <a>login</a>
+          <li className="home-li"><a className="active-link">Home</a></li>
+          <li><a>Day Planner</a></li>
+          <li><a>Travel</a></li>
+          <li><a>Settings</a></li>
+          <li><a className="accent-link">login</a></li>
         </ul>
       </nav>
       <main>

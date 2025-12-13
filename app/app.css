@@ -42,7 +42,7 @@ a {
   text-decoration: none;
 }
 
-.upper-navbar {
+nav {
   background-color: var(--primary-color);
   border-bottom: 1px solid var(--hover-color);
   width: 100vw;
@@ -50,18 +50,10 @@ a {
   color: var(--text-color);
 }
 
-.upper-navbar ul {
+nav ul {
   list-style: none;
   display: flex;
   color: var(--text-color);
-}
-
-.upper-navbar a {
-  color: var(--text-color);
-}
-
-.upper-navbar a:hover {
-  color: var(--accent-color);
 }
 
 .home-li {
@@ -78,4 +70,12 @@ nav a {
 
 nav a:hover {
   background-color: var(--hover-color);
+}
+
+nav a.active-link {
+  border-bottom: 2px solid var(--text-color);
+}
+
+nav a.accent-link {
+  background-color: var(--accent-color);
 }
