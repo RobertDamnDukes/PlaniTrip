@@ -59,6 +59,10 @@ nav ul {
   color: var(--text-color);
 }
 
+nav li {
+  display: flex;
+}
+
 .home-li {
   margin-right: auto;
 }
@@ -83,7 +87,7 @@ nav a.accent-link {
   background-color: var(--accent-color);
 }
 
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
   nav {
     position: fixed;
     top: 0;
@@ -110,4 +114,4 @@ nav a.accent-link {
   nav .home-li {
     margin-right: unset;
   }
-}
+} */
