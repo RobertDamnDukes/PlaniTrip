@@ -46,8 +46,11 @@ nav {
   background-color: var(--primary-color);
   border-bottom: 1px solid var(--hover-color);
   width: 100vw;
-  height: 10vh;
   color: var(--text-color);
+}
+
+nav {
+  display: flex;
 }
 
 nav ul {
@@ -78,4 +81,33 @@ nav a.active-link {
 
 nav a.accent-link {
   background-color: var(--accent-color);
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: min(15em, 100%);
+    z-index: 10;
+    border-left: 1px solid var(--hover-color);
+  }
+  nav a {
+    width: 100%;
+    padding-left: 2.5em;
+  }
+
+  nav ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  nav a.active-link {
+    border-bottom: none;
+  }
+
+  nav .home-li {
+    margin-right: unset;
+  }
 }

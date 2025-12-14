@@ -33,13 +33,13 @@ export default function App() {
 
   return (
     <div>
-      <nav className="upper-navbar">
+      <nav>
         <ul>
           <li className="home-li"><a className="active-link">Home</a></li>
           <li><a>Day Planner</a></li>
           <li><a>Travel</a></li>
           <li><a>Settings</a></li>
-          <li><a className="accent-link">login</a></li>
+          <li><a className="accent-link">Login</a></li>
         </ul>
       </nav>
       <main>
