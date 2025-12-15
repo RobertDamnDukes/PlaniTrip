@@ -36,11 +36,7 @@ export default function App() {
       <nav>
         <input type="checkbox" id="sidebar-active"></input>
         <label htmlFor="sidebar-active" className="menu-toggle">
-          <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" fill="none">
-            <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round" />
-            <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round" />
-            <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round" />
-          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
         </label>
       </nav>
       <main>
