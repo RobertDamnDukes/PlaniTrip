@@ -34,13 +34,14 @@ export default function App() {
   return (
     <div>
       <nav>
-        <ul>
-          <li className="home-li"><a className="active-link">Home</a></li>
-          <li><a>Day Planner</a></li>
-          <li><a>Travel</a></li>
-          <li><a>Settings</a></li>
-          <li><a className="accent-link">Login</a></li>
-        </ul>
+        <input type="checkbox" id="sidebar-active"></input>
+        <label htmlFor="sidebar-active" className="menu-toggle">
+          <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" fill="none">
+            <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round" />
+            <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round" />
+            <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </label>
       </nav>
       <main>
         <h1>My todos</h1>

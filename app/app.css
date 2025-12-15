@@ -1,10 +1,8 @@
 @import url("globals.css");
 
 body {
-  margin: 0;
-  background: linear-gradient(180deg, rgb(55, 82, 255), rgb(255, 255, 255));
+  background: rgb(255, 255, 255);
   display: flex;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   height: 100vh;
   width: 100vw;
 }
@@ -36,82 +34,3 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
-a {
-  font-weight: 800;
-  text-decoration: none;
-}
-
-nav {
-  background-color: var(--primary-color);
-  border-bottom: 1px solid var(--hover-color);
-  width: 100vw;
-  color: var(--text-color);
-}
-
-nav {
-  display: flex;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  color: var(--text-color);
-}
-
-nav li {
-  display: flex;
-}
-
-.home-li {
-  margin-right: auto;
-}
-
-nav a {
-  display: flex;
-  text-decoration: none;
-  color: var(--text-color);
-  padding: 1em 2em;
-  transition: background-color 150ms ease;
-}
-
-nav a:hover {
-  background-color: var(--hover-color);
-}
-
-nav a.active-link {
-  border-bottom: 2px solid var(--text-color);
-}
-
-nav a.accent-link {
-  background-color: var(--accent-color);
-}
-
-/* @media screen and (max-width: 700px) {
-  nav {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: min(15em, 100%);
-    z-index: 10;
-    border-left: 1px solid var(--hover-color);
-  }
-  nav a {
-    width: 100%;
-    padding-left: 2.5em;
-  }
-
-  nav ul {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  nav a.active-link {
-    border-bottom: none;
-  }
-
-  nav .home-li {
-    margin-right: unset;
-  }
-} */
