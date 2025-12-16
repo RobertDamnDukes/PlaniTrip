@@ -35,11 +35,22 @@ export default function App() {
     <div>
       <nav>
         <input type="checkbox" id="sidebar-active"></input>
-        <label htmlFor="sidebar-active" className="menu-toggle">
-          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        <label htmlFor="sidebar-active" className="open-sidebar-button">
+          <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
         </label>
+        <label id="overlay" for="sidebar-active"></label>
+        <div className="links-container">
+          <label htmlFor="sidebar-active" className="close-sidebar-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e3e3e3"><path d="m251.33-204.67-46.66-46.66L433.33-480 204.67-708.67l46.66-46.66L480-526.67l228.67-228.66 46.66 46.66L526.67-480l228.66 228.67-46.66 46.66L480-433.33 251.33-204.67Z"/></svg>
+          </label>
+          <a className="home-link">Logo</a>
+          <a>Flights</a>
+          <a>Travel </a>
+          <a>About</a>
+          <a>Login</a>
+        </div>
       </nav>
-      <main>
+    {/* <main>
         <h1>My todos</h1>
         <button onClick={createTodo}>+ new</button>
         <ul>
@@ -51,7 +62,7 @@ export default function App() {
           🥳 App successfully hosted. Try creating a new todo.
           <br />
         </div>
-      </main>
+      </main> */}
     </div>
   );
 }
