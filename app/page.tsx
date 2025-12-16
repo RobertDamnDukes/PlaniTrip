@@ -38,7 +38,7 @@ export default function App() {
         <label htmlFor="sidebar-active" className="open-sidebar-button">
           <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
         </label>
-        <label id="overlay" for="sidebar-active"></label>
+        <label id="overlay" htmlFor="sidebar-active"></label>
         <div className="links-container">
           <label htmlFor="sidebar-active" className="close-sidebar-button">
             <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e3e3e3"><path d="m251.33-204.67-46.66-46.66L433.33-480 204.67-708.67l46.66-46.66L480-526.67l228.67-228.66 46.66 46.66L526.67-480l228.66 228.67-46.66 46.66L480-433.33 251.33-204.67Z"/></svg>
