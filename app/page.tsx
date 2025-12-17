@@ -51,10 +51,11 @@ export default function App() {
           <a>Login</a>
         </div>
       </nav>
-      <div class="planning-section">
-        <div>
+      <div className="planning-section">
+        <div className="location-inputs">
           <h1>Discover your next adventure</h1>
           <p>Explore flights, hotels, and car rentals all in one place.</p>
+          <input name="myInput" />
         </div>
       </div>
     </div>
