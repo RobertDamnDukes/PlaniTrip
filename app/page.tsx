@@ -55,7 +55,7 @@ export default function App() {
         <div className="location-inputs">
           <h1 className="location-search-header">Discover your next adventure</h1>
           <p>Explore flights, hotels, and car rentals all in one place.</p>
-          <input className="location-Input" />
+          <input />
           <div className="datePicker-container">
             <div>
               <input type="text" id="arrivalDate" className="dateInput" placeholder="Arrival:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMYYYY" />
