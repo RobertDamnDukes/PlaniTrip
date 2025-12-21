@@ -58,10 +58,10 @@ export default function App() {
           <input name="myInput" />
           <div className="datePicker-container">
             <div>
-              <input type="text" id="dateInput" class="dateInput" placeholder=":  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMYYYY" />
+              <input type="text" id="departureDate" className="dateInput" placeholder=":  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMYYYY" />
             </div>
             <div>
-              <input type="text" id="dateInput" class="dateInput" placeholder="Date:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMYYYY" />
+              <input type="text" id="returnDate" className="dateInput" placeholder="Date:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMYYYY" />
             </div>
           </div>
         </div>
