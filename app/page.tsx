@@ -55,16 +55,36 @@ export default function App() {
         <div className="location-inputs">
           <h1 className="location-search-header">Discover your next adventure</h1>
           <p>Explore flights, hotels, and car rentals all in one place.</p>
-          <input className="location-entry-field"/>
+          <input className="location-entry-field" />
           <div className="datePicker-container">
             <div>
               <input type="text" id="arrivalDate" className="dateInput" placeholder="Arrival:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMYYYY" />
             </div>
-            <span>&#8594;</span>
+            <span className="directional-icon">&#8594;</span>
             <div>
               <input type="text" id="departureDate" className="dateInput" placeholder="Departure:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMYYYY" />
             </div>
           </div>
+        </div>
+      </div>
+      <div className="locations-carousel">
+        <div className="group">
+          <div className="card">1</div>
+          <div className="card">2</div>
+          <div className="card">3</div>
+          <div className="card">4</div>
+          <div className="card">5</div>
+          <div className="card">6</div>
+          <div className="card">7</div>
+        </div>
+        <div aria-hidden="true" className="group">
+          <div className="card">1</div>
+          <div className="card">2</div>
+          <div className="card">3</div>
+          <div className="card">4</div>
+          <div className="card">5</div>
+          <div className="card">6</div>
+          <div className="card">7</div>
         </div>
       </div>
     </div>

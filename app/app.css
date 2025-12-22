@@ -187,6 +187,53 @@ nav svg {
   transition: 0.5s;
 }
 
+span .directional-icon {
+    font-size: 1.3rem;
+}
+
+.locations-carousel {
+  width: 90%;
+  display: flex;
+  margin: 100px auto;
+  border: 5px solid var(--primary-color);
+  overflow-x: auto;
+}
+
+.locations-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+/*taking off display flex will stack the cards vertically. May need to change above overflow x into overflow y*/
+.group { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  animation: spin 20s linear infinite;
+  padding-right: 1em;;
+}
+
+.card {
+  flex: 0 0 5em;
+  height: 5em;
+  padding: 1em;
+  background-color: var(--accent-color);
+  font-size: 3rem;
+  border-radius: .2em;
+  text-align: center;
+  align-content: center;
+}
+
+@keyframes spin {
+  from {
+    translate: 0%;
+  }
+  to {
+    translate: 100%;
+  }
+  
+}
+
 @media (max-width: 550px) {
 
   .links-container {
