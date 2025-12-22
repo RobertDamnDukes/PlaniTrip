@@ -195,7 +195,6 @@ nav svg {
   width: 100vw;
   display: flex;
   margin: 100px auto;
-  border: 5px solid var(--primary-color);
   overflow-x: auto;
 }
 
@@ -213,7 +212,6 @@ nav svg {
   padding-right: 1em;;
 }
 
-/* From Uiverse.io by ElSombrero2 */ 
 .card {
   overflow: visible;
   width: 190px;
@@ -275,16 +273,6 @@ nav svg {
 
 .card:hover .content {
   transform: rotateY(180deg);
-}
-
-@keyframes rotation_481 {
-  0% {
-    transform: rotateZ(0deg);
-  }
-
-  0% {
-    transform: rotateZ(360deg);
-  }
 }
 
 .front {
@@ -370,6 +358,16 @@ nav svg {
   width: 30px;
   height: 30px;
   animation-delay: -1800ms;
+}
+
+@keyframes rotation_481 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  0% {
+    transform: rotateZ(360deg);
+  }
 }
 
 @keyframes floating {
