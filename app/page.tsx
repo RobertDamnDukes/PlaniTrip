@@ -58,24 +58,297 @@ export default function App() {
           <input className="location-entry-field" />
           <div className="datePicker-container">
             <div>
-              <input type="text" id="arrivalDate" className="dateInput" placeholder="Arrival:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMYYYY" />
+              <input type="text" id="arrivalDate" className="dateInput" placeholder="Start:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMYYYY" />
             </div>
             <span className="directional-icon">&#8594;</span>
             <div>
-              <input type="text" id="departureDate" className="dateInput" placeholder="Departure:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMYYYY" />
+              <input type="text" id="departureDate" className="dateInput" placeholder="End:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMYYYY" />
             </div>
           </div>
         </div>
       </div>
       <div className="locations-carousel">
         <div className="group">
-          <div className="card">1</div>
-          <div className="card">2</div>
-          <div className="card">3</div>
-          <div className="card">4</div>
-          <div className="card">5</div>
-          <div className="card">6</div>
-          <div className="card">7</div>
+          <div className="card">
+            <div className="content">
+              <div className="back">
+                <div className="back-content">
+                  <strong>Hover Me</strong>
+                </div>
+              </div>
+              <div className="front">
+
+                <div className="img">
+                  <div className="circle">
+                  </div>
+                  <div className="circle" id="right">
+                  </div>
+                  <div className="circle" id="bottom">
+                  </div>
+                </div>
+
+                <div className="front-content">
+                  <small className="badge">Pasta</small>
+                  <div className="description">
+                    <div className="title">
+                      <p className="title">
+                        <strong>Spaguetti Bolognese</strong>
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
+                    </div>
+                    <p className="card-footer">
+                      30 Mins &nbsp; | &nbsp; 1 Serving
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="content">
+              <div className="back">
+                <div className="back-content">
+                  <strong>Hover Me</strong>
+                </div>
+              </div>
+              <div className="front">
+
+                <div className="img">
+                  <div className="circle">
+                  </div>
+                  <div className="circle" id="right">
+                  </div>
+                  <div className="circle" id="bottom">
+                  </div>
+                </div>
+
+                <div className="front-content">
+                  <small className="badge">Pasta</small>
+                  <div className="description">
+                    <div className="title">
+                      <p className="title">
+                        <strong>Spaguetti Bolognese</strong>
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
+                    </div>
+                    <p className="card-footer">
+                      30 Mins &nbsp; | &nbsp; 1 Serving
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="content">
+              <div className="back">
+                <div className="back-content">
+                  <strong>Hover Me</strong>
+                </div>
+              </div>
+              <div className="front">
+
+                <div className="img">
+                  <div className="circle">
+                  </div>
+                  <div className="circle" id="right">
+                  </div>
+                  <div className="circle" id="bottom">
+                  </div>
+                </div>
+
+                <div className="front-content">
+                  <small className="badge">Pasta</small>
+                  <div className="description">
+                    <div className="title">
+                      <p className="title">
+                        <strong>Spaguetti Bolognese</strong>
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
+                    </div>
+                    <p className="card-footer">
+                      30 Mins &nbsp; | &nbsp; 1 Serving
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="content">
+              <div className="back">
+                <div className="back-content">
+                  <strong>Hover Me</strong>
+                </div>
+              </div>
+              <div className="front">
+
+                <div className="img">
+                  <div className="circle">
+                  </div>
+                  <div className="circle" id="right">
+                  </div>
+                  <div className="circle" id="bottom">
+                  </div>
+                </div>
+
+                <div className="front-content">
+                  <small className="badge">Pasta</small>
+                  <div className="description">
+                    <div className="title">
+                      <p className="title">
+                        <strong>Spaguetti Bolognese</strong>
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
+                    </div>
+                    <p className="card-footer">
+                      30 Mins &nbsp; | &nbsp; 1 Serving
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="content">
+              <div className="back">
+                <div className="back-content">
+                  <strong>Hover Me</strong>
+                </div>
+              </div>
+              <div className="front">
+
+                <div className="img">
+                  <div className="circle">
+                  </div>
+                  <div className="circle" id="right">
+                  </div>
+                  <div className="circle" id="bottom">
+                  </div>
+                </div>
+
+                <div className="front-content">
+                  <small className="badge">Pasta</small>
+                  <div className="description">
+                    <div className="title">
+                      <p className="title">
+                        <strong>Spaguetti Bolognese</strong>
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
+                    </div>
+                    <p className="card-footer">
+                      30 Mins &nbsp; | &nbsp; 1 Serving
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="content">
+              <div className="back">
+                <div className="back-content">
+                  <strong>Hover Me</strong>
+                </div>
+              </div>
+              <div className="front">
+
+                <div className="img">
+                  <div className="circle">
+                  </div>
+                  <div className="circle" id="right">
+                  </div>
+                  <div className="circle" id="bottom">
+                  </div>
+                </div>
+
+                <div className="front-content">
+                  <small className="badge">Pasta</small>
+                  <div className="description">
+                    <div className="title">
+                      <p className="title">
+                        <strong>Spaguetti Bolognese</strong>
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
+                    </div>
+                    <p className="card-footer">
+                      30 Mins &nbsp; | &nbsp; 1 Serving
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="content">
+              <div className="back">
+                <div className="back-content">
+                  <strong>Hover Me</strong>
+                </div>
+              </div>
+              <div className="front">
+
+                <div className="img">
+                  <div className="circle">
+                  </div>
+                  <div className="circle" id="right">
+                  </div>
+                  <div className="circle" id="bottom">
+                  </div>
+                </div>
+
+                <div className="front-content">
+                  <small className="badge">Pasta</small>
+                  <div className="description">
+                    <div className="title">
+                      <p className="title">
+                        <strong>Spaguetti Bolognese</strong>
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
+                    </div>
+                    <p className="card-footer">
+                      30 Mins &nbsp; | &nbsp; 1 Serving
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="content">
+              <div className="back">
+                <div className="back-content">
+                  <strong>Hover Me</strong>
+                </div>
+              </div>
+              <div className="front">
+
+                <div className="img">
+                  <div className="circle">
+                  </div>
+                  <div className="circle" id="right">
+                  </div>
+                  <div className="circle" id="bottom">
+                  </div>
+                </div>
+
+                <div className="front-content">
+                  <small className="badge">Pasta</small>
+                  <div className="description">
+                    <div className="title">
+                      <p className="title">
+                        <strong>Spaguetti Bolognese</strong>
+                      </p>
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
+                    </div>
+                    <p className="card-footer">
+                      30 Mins &nbsp; | &nbsp; 1 Serving
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div aria-hidden="true" className="group">
           <div className="card">1</div>
