@@ -76,7 +76,7 @@ export default function App() {
                   <div className="location-card-back-image">
                     <img src="https://www.theinvisibletourist.com/wp-content/uploads/2019/09/featured_122.jpg" alt="Image of Swiss Alps" className="location-card-image-overlay" />
                     <div className=".location-card-text">
-                      <strong className="location-card-text">Hover Me</strong>
+                      <strong className="location-card-text">Swiss Alps</strong>
                     </div>
                   </div>
                 </div>
@@ -92,16 +92,16 @@ export default function App() {
                 </div>
 
                 <div className="front-content">
-                  <small className="badge">Pasta</small>
+                  <small className="badge">Switzerland</small>
                   <div className="description">
                     <div className="title">
                       <p className="title">
-                        <strong>Spaguetti Bolognese</strong>
+                        <strong>Zermatt</strong>
                       </p>
                       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
                     </div>
                     <p className="card-footer">
-                      30 Mins &nbsp; | &nbsp; 1 Serving
+                      Mountain Views &nbsp; | &nbsp; Skiing
                     </p>
                   </div>
                 </div>
@@ -112,11 +112,15 @@ export default function App() {
             <div className="content">
               <div className="back">
                 <div className="back-content">
-                  <strong>Hover Me</strong>
+                  <div className="location-card-back-image">
+                    <img src="https://www.theinvisibletourist.com/wp-content/uploads/2019/09/featured_122.jpg" alt="Image of Swiss Alps" className="location-card-image-overlay" />
+                    <div className=".location-card-text">
+                      <strong className="location-card-text">Swiss Alps</strong>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="front">
-
                 <div className="img">
                   <div className="circle">
                   </div>
@@ -127,31 +131,34 @@ export default function App() {
                 </div>
 
                 <div className="front-content">
-                  <small className="badge">Pasta</small>
+                  <small className="badge">Switzerland</small>
                   <div className="description">
                     <div className="title">
                       <p className="title">
-                        <strong>Spaguetti Bolognese</strong>
+                        <strong>Zermatt</strong>
                       </p>
                       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
                     </div>
                     <p className="card-footer">
-                      30 Mins &nbsp; | &nbsp; 1 Serving
+                      Mountain Views &nbsp; | &nbsp; Skiing
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="card">
+          </div><div className="card">
             <div className="content">
               <div className="back">
                 <div className="back-content">
-                  <strong>Hover Me</strong>
+                  <div className="location-card-back-image">
+                    <img src="https://www.theinvisibletourist.com/wp-content/uploads/2019/09/featured_122.jpg" alt="Image of Swiss Alps" className="location-card-image-overlay" />
+                    <div className=".location-card-text">
+                      <strong className="location-card-text">Swiss Alps</strong>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="front">
-
                 <div className="img">
                   <div className="circle">
                   </div>
@@ -162,31 +169,34 @@ export default function App() {
                 </div>
 
                 <div className="front-content">
-                  <small className="badge">Pasta</small>
+                  <small className="badge">Switzerland</small>
                   <div className="description">
                     <div className="title">
                       <p className="title">
-                        <strong>Spaguetti Bolognese</strong>
+                        <strong>Zermatt</strong>
                       </p>
                       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
                     </div>
                     <p className="card-footer">
-                      30 Mins &nbsp; | &nbsp; 1 Serving
+                      Mountain Views &nbsp; | &nbsp; Skiing
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="card">
+          </div><div className="card">
             <div className="content">
               <div className="back">
                 <div className="back-content">
-                  <strong>Hover Me</strong>
+                  <div className="location-card-back-image">
+                    <img src="https://www.theinvisibletourist.com/wp-content/uploads/2019/09/featured_122.jpg" alt="Image of Swiss Alps" className="location-card-image-overlay" />
+                    <div className=".location-card-text">
+                      <strong className="location-card-text">Swiss Alps</strong>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="front">
-
                 <div className="img">
                   <div className="circle">
                   </div>
@@ -197,31 +207,34 @@ export default function App() {
                 </div>
 
                 <div className="front-content">
-                  <small className="badge">Pasta</small>
+                  <small className="badge">Switzerland</small>
                   <div className="description">
                     <div className="title">
                       <p className="title">
-                        <strong>Spaguetti Bolognese</strong>
+                        <strong>Zermatt</strong>
                       </p>
                       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
                     </div>
                     <p className="card-footer">
-                      30 Mins &nbsp; | &nbsp; 1 Serving
+                      Mountain Views &nbsp; | &nbsp; Skiing
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="card">
+          </div><div className="card">
             <div className="content">
               <div className="back">
                 <div className="back-content">
-                  <strong>Hover Me</strong>
+                  <div className="location-card-back-image">
+                    <img src="https://www.theinvisibletourist.com/wp-content/uploads/2019/09/featured_122.jpg" alt="Image of Swiss Alps" className="location-card-image-overlay" />
+                    <div className=".location-card-text">
+                      <strong className="location-card-text">Swiss Alps</strong>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="front">
-
                 <div className="img">
                   <div className="circle">
                   </div>
@@ -232,31 +245,34 @@ export default function App() {
                 </div>
 
                 <div className="front-content">
-                  <small className="badge">Pasta</small>
+                  <small className="badge">Switzerland</small>
                   <div className="description">
                     <div className="title">
                       <p className="title">
-                        <strong>Spaguetti Bolognese</strong>
+                        <strong>Zermatt</strong>
                       </p>
                       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
                     </div>
                     <p className="card-footer">
-                      30 Mins &nbsp; | &nbsp; 1 Serving
+                      Mountain Views &nbsp; | &nbsp; Skiing
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="card">
+          </div><div className="card">
             <div className="content">
               <div className="back">
                 <div className="back-content">
-                  <strong>Hover Me</strong>
+                  <div className="location-card-back-image">
+                    <img src="https://www.theinvisibletourist.com/wp-content/uploads/2019/09/featured_122.jpg" alt="Image of Swiss Alps" className="location-card-image-overlay" />
+                    <div className=".location-card-text">
+                      <strong className="location-card-text">Swiss Alps</strong>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="front">
-
                 <div className="img">
                   <div className="circle">
                   </div>
@@ -267,31 +283,34 @@ export default function App() {
                 </div>
 
                 <div className="front-content">
-                  <small className="badge">Pasta</small>
+                  <small className="badge">Switzerland</small>
                   <div className="description">
                     <div className="title">
                       <p className="title">
-                        <strong>Spaguetti Bolognese</strong>
+                        <strong>Zermatt</strong>
                       </p>
                       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
                     </div>
                     <p className="card-footer">
-                      30 Mins &nbsp; | &nbsp; 1 Serving
+                      Mountain Views &nbsp; | &nbsp; Skiing
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="card">
+          </div><div className="card">
             <div className="content">
               <div className="back">
                 <div className="back-content">
-                  <strong>Hover Me</strong>
+                  <div className="location-card-back-image">
+                    <img src="https://www.theinvisibletourist.com/wp-content/uploads/2019/09/featured_122.jpg" alt="Image of Swiss Alps" className="location-card-image-overlay" />
+                    <div className=".location-card-text">
+                      <strong className="location-card-text">Swiss Alps</strong>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="front">
-
                 <div className="img">
                   <div className="circle">
                   </div>
@@ -302,51 +321,16 @@ export default function App() {
                 </div>
 
                 <div className="front-content">
-                  <small className="badge">Pasta</small>
+                  <small className="badge">Switzerland</small>
                   <div className="description">
                     <div className="title">
                       <p className="title">
-                        <strong>Spaguetti Bolognese</strong>
+                        <strong>Zermatt</strong>
                       </p>
                       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
                     </div>
                     <p className="card-footer">
-                      30 Mins &nbsp; | &nbsp; 1 Serving
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="card">
-            <div className="content">
-              <div className="back">
-                <div className="back-content">
-                  <strong>Hover Me</strong>
-                </div>
-              </div>
-              <div className="front">
-
-                <div className="img">
-                  <div className="circle">
-                  </div>
-                  <div className="circle" id="right">
-                  </div>
-                  <div className="circle" id="bottom">
-                  </div>
-                </div>
-
-                <div className="front-content">
-                  <small className="badge">Pasta</small>
-                  <div className="description">
-                    <div className="title">
-                      <p className="title">
-                        <strong>Spaguetti Bolognese</strong>
-                      </p>
-                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
-                    </div>
-                    <p className="card-footer">
-                      30 Mins &nbsp; | &nbsp; 1 Serving
+                      Mountain Views &nbsp; | &nbsp; Skiing
                     </p>
                   </div>
                 </div>
@@ -359,11 +343,15 @@ export default function App() {
             <div className="content">
               <div className="back">
                 <div className="back-content">
-                  <strong>Hover Me</strong>
+                  <div className="location-card-back-image">
+                    <img src="https://www.theinvisibletourist.com/wp-content/uploads/2019/09/featured_122.jpg" alt="Image of Swiss Alps" className="location-card-image-overlay" />
+                    <div className=".location-card-text">
+                      <strong className="location-card-text">Swiss Alps</strong>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="front">
-
                 <div className="img">
                   <div className="circle">
                   </div>
@@ -374,31 +362,34 @@ export default function App() {
                 </div>
 
                 <div className="front-content">
-                  <small className="badge">Pasta</small>
+                  <small className="badge">Switzerland</small>
                   <div className="description">
                     <div className="title">
                       <p className="title">
-                        <strong>Spaguetti Bolognese</strong>
+                        <strong>Zermatt</strong>
                       </p>
                       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
                     </div>
                     <p className="card-footer">
-                      30 Mins &nbsp; | &nbsp; 1 Serving
+                      Mountain Views &nbsp; | &nbsp; Skiing
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="card">
+          </div><div className="card">
             <div className="content">
               <div className="back">
                 <div className="back-content">
-                  <strong>Hover Me</strong>
+                  <div className="location-card-back-image">
+                    <img src="https://www.theinvisibletourist.com/wp-content/uploads/2019/09/featured_122.jpg" alt="Image of Swiss Alps" className="location-card-image-overlay" />
+                    <div className=".location-card-text">
+                      <strong className="location-card-text">Swiss Alps</strong>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="front">
-
                 <div className="img">
                   <div className="circle">
                   </div>
@@ -409,31 +400,34 @@ export default function App() {
                 </div>
 
                 <div className="front-content">
-                  <small className="badge">Pasta</small>
+                  <small className="badge">Switzerland</small>
                   <div className="description">
                     <div className="title">
                       <p className="title">
-                        <strong>Spaguetti Bolognese</strong>
+                        <strong>Zermatt</strong>
                       </p>
                       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
                     </div>
                     <p className="card-footer">
-                      30 Mins &nbsp; | &nbsp; 1 Serving
+                      Mountain Views &nbsp; | &nbsp; Skiing
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="card">
+          </div><div className="card">
             <div className="content">
               <div className="back">
                 <div className="back-content">
-                  <strong>Hover Me</strong>
+                  <div className="location-card-back-image">
+                    <img src="https://www.theinvisibletourist.com/wp-content/uploads/2019/09/featured_122.jpg" alt="Image of Swiss Alps" className="location-card-image-overlay" />
+                    <div className=".location-card-text">
+                      <strong className="location-card-text">Swiss Alps</strong>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="front">
-
                 <div className="img">
                   <div className="circle">
                   </div>
@@ -444,31 +438,34 @@ export default function App() {
                 </div>
 
                 <div className="front-content">
-                  <small className="badge">Pasta</small>
+                  <small className="badge">Switzerland</small>
                   <div className="description">
                     <div className="title">
                       <p className="title">
-                        <strong>Spaguetti Bolognese</strong>
+                        <strong>Zermatt</strong>
                       </p>
                       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
                     </div>
                     <p className="card-footer">
-                      30 Mins &nbsp; | &nbsp; 1 Serving
+                      Mountain Views &nbsp; | &nbsp; Skiing
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="card">
+          </div><div className="card">
             <div className="content">
               <div className="back">
                 <div className="back-content">
-                  <strong>Hover Me</strong>
+                  <div className="location-card-back-image">
+                    <img src="https://www.theinvisibletourist.com/wp-content/uploads/2019/09/featured_122.jpg" alt="Image of Swiss Alps" className="location-card-image-overlay" />
+                    <div className=".location-card-text">
+                      <strong className="location-card-text">Swiss Alps</strong>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="front">
-
                 <div className="img">
                   <div className="circle">
                   </div>
@@ -479,31 +476,34 @@ export default function App() {
                 </div>
 
                 <div className="front-content">
-                  <small className="badge">Pasta</small>
+                  <small className="badge">Switzerland</small>
                   <div className="description">
                     <div className="title">
                       <p className="title">
-                        <strong>Spaguetti Bolognese</strong>
+                        <strong>Zermatt</strong>
                       </p>
                       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
                     </div>
                     <p className="card-footer">
-                      30 Mins &nbsp; | &nbsp; 1 Serving
+                      Mountain Views &nbsp; | &nbsp; Skiing
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="card">
+          </div><div className="card">
             <div className="content">
               <div className="back">
                 <div className="back-content">
-                  <strong>Hover Me</strong>
+                  <div className="location-card-back-image">
+                    <img src="https://www.theinvisibletourist.com/wp-content/uploads/2019/09/featured_122.jpg" alt="Image of Swiss Alps" className="location-card-image-overlay" />
+                    <div className=".location-card-text">
+                      <strong className="location-card-text">Swiss Alps</strong>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="front">
-
                 <div className="img">
                   <div className="circle">
                   </div>
@@ -514,31 +514,34 @@ export default function App() {
                 </div>
 
                 <div className="front-content">
-                  <small className="badge">Pasta</small>
+                  <small className="badge">Switzerland</small>
                   <div className="description">
                     <div className="title">
                       <p className="title">
-                        <strong>Spaguetti Bolognese</strong>
+                        <strong>Zermatt</strong>
                       </p>
                       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
                     </div>
                     <p className="card-footer">
-                      30 Mins &nbsp; | &nbsp; 1 Serving
+                      Mountain Views &nbsp; | &nbsp; Skiing
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="card">
+          </div><div className="card">
             <div className="content">
               <div className="back">
                 <div className="back-content">
-                  <strong>Hover Me</strong>
+                  <div className="location-card-back-image">
+                    <img src="https://www.theinvisibletourist.com/wp-content/uploads/2019/09/featured_122.jpg" alt="Image of Swiss Alps" className="location-card-image-overlay" />
+                    <div className=".location-card-text">
+                      <strong className="location-card-text">Swiss Alps</strong>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="front">
-
                 <div className="img">
                   <div className="circle">
                   </div>
@@ -549,31 +552,34 @@ export default function App() {
                 </div>
 
                 <div className="front-content">
-                  <small className="badge">Pasta</small>
+                  <small className="badge">Switzerland</small>
                   <div className="description">
                     <div className="title">
                       <p className="title">
-                        <strong>Spaguetti Bolognese</strong>
+                        <strong>Zermatt</strong>
                       </p>
                       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
                     </div>
                     <p className="card-footer">
-                      30 Mins &nbsp; | &nbsp; 1 Serving
+                      Mountain Views &nbsp; | &nbsp; Skiing
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="card">
+          </div><div className="card">
             <div className="content">
               <div className="back">
                 <div className="back-content">
-                  <strong>Hover Me</strong>
+                  <div className="location-card-back-image">
+                    <img src="https://www.theinvisibletourist.com/wp-content/uploads/2019/09/featured_122.jpg" alt="Image of Swiss Alps" className="location-card-image-overlay" />
+                    <div className=".location-card-text">
+                      <strong className="location-card-text">Swiss Alps</strong>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="front">
-
                 <div className="img">
                   <div className="circle">
                   </div>
@@ -584,51 +590,16 @@ export default function App() {
                 </div>
 
                 <div className="front-content">
-                  <small className="badge">Pasta</small>
+                  <small className="badge">Switzerland</small>
                   <div className="description">
                     <div className="title">
                       <p className="title">
-                        <strong>Spaguetti Bolognese</strong>
+                        <strong>Zermatt</strong>
                       </p>
                       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
                     </div>
                     <p className="card-footer">
-                      30 Mins &nbsp; | &nbsp; 1 Serving
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="card">
-            <div className="content">
-              <div className="back">
-                <div className="back-content">
-                  <strong>Hover Me</strong>
-                </div>
-              </div>
-              <div className="front">
-
-                <div className="img">
-                  <div className="circle">
-                  </div>
-                  <div className="circle" id="right">
-                  </div>
-                  <div className="circle" id="bottom">
-                  </div>
-                </div>
-
-                <div className="front-content">
-                  <small className="badge">Pasta</small>
-                  <div className="description">
-                    <div className="title">
-                      <p className="title">
-                        <strong>Spaguetti Bolognese</strong>
-                      </p>
-                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" /></svg>
-                    </div>
-                    <p className="card-footer">
-                      30 Mins &nbsp; | &nbsp; 1 Serving
+                      Mountain Views &nbsp; | &nbsp; Skiing
                     </p>
                   </div>
                 </div>
