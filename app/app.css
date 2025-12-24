@@ -203,13 +203,14 @@ nav svg {
 }
 
 /*taking off display flex will stack the cards vertically. May need to change above overflow x into overflow y*/
-.group { 
+.group {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1em;
   animation: spin 60s linear infinite;
-  padding-right: 1em;;
+  padding-right: 1em;
+  ;
 }
 
 .card {
@@ -227,7 +228,8 @@ nav svg {
   border-radius: 5px;
 }
 
-.front, .back {
+.front,
+.back {
   background-color: #151515;
   position: absolute;
   width: 100%;
@@ -361,12 +363,27 @@ nav svg {
 }
 
 .location-card-back-image {
+  position: relative;
+  text-align: center;
   width: 100%;
-  height: 100%;;
+  ;
+  height: 100%;
+}
+
+.location-card-image-overlay {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .location-card-text {
-  background-color: #00000055;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
 }
 
 @keyframes rotation_481 {
@@ -397,10 +414,11 @@ nav svg {
   from {
     translate: 0%;
   }
+
   to {
     translate: -100%;
   }
-  
+
 }
 
 @media (max-width: 550px) {

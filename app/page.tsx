@@ -73,7 +73,12 @@ export default function App() {
             <div className="content">
               <div className="back">
                 <div className="back-content">
-                  <img src="https://www.theinvisibletourist.com/wp-content/uploads/2019/09/featured_122.jpg" alt="Image of Swiss Alps" className="location-card-back-image"><strong className="location-card-text">Hover Me</strong></img>
+                  <div className="location-card-back-image">
+                    <img src="https://www.theinvisibletourist.com/wp-content/uploads/2019/09/featured_122.jpg" alt="Image of Swiss Alps" className="location-card-image-overlay" />
+                    <div className=".location-card-text">
+                      <strong className="location-card-text">Hover Me</strong>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="front">
