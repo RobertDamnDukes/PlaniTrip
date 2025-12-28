@@ -5,8 +5,8 @@ import "./app.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Easy Plan",
-  description: "The easy way to plan your life.",
+  title: "Jet Setter",
+  description: "Save time planning so you have more time relaxing.",
 };
 
 export default function RootLayout({

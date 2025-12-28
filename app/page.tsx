@@ -608,6 +608,30 @@ export default function App() {
           </div>
         </div>
       </div>
+      <footer class="footer-main">
+        <div class="footer-container">
+          <div>
+            <a>Column 1</a>
+            <a>Column 1</a>
+            <a>Column 1</a>
+            <a>Column 1</a>
+            <a>Column 1</a>
+          </div>
+          <div>
+            <p>© 2024 TravelMate. All rights reserved.</p>
+            <p>© 2024 TravelMate. All rights reserved.</p>
+            <p>© 2024 TravelMate. All rights reserved.</p>
+            <p>© 2024 TravelMate. All rights reserved.</p>
+          </div>
+          <div>
+            <a>Privacy Policy</a>
+            <a>Privacy Policy</a>
+            <a>Privacy Policy</a>
+            <a>Privacy Policy</a>
+            <a>Privacy Policy</a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

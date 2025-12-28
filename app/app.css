@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background: rgb(255, 255, 255);
+  background: var(--white-color);
   display: flex;
   height: 100vh;
   width: 100vw;
@@ -33,7 +33,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-  color: white;
+  color: var(--white-color);
 }
 
 button:hover {
@@ -53,7 +53,7 @@ nav {
   justify-content: flex-end;
   align-items: center;
   z-index: 5;
-  border-bottom: 1px solid #e9ecef;
+  border-bottom: 1px solid var(--footer-color);
   margin-bottom: 5%;
 }
 
@@ -379,9 +379,26 @@ nav svg {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: var(--white-color);
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
+}
+
+.footer-main {
+  width: 100vw;
+  height: 80px;
+  background-color: var(--footer-color);
+  border-top: 1px solid var(--primary-color);
+  padding-bottom: 30px;
+  display: block;
+}
+
+.footer-container {
+  width: 90%;
+  height: 100%;
+  display: flex !important;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
 @keyframes rotation_481 {
