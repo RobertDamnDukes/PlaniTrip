@@ -610,20 +610,20 @@ export default function App() {
       </div>
       <footer className="footer-main">
         <div className="footer-container">
-          <div>
+          <div className="footer-column">
             <a>Column 1</a>
             <a>Column 1</a>
             <a>Column 1</a>
             <a>Column 1</a>
             <a>Column 1</a>
           </div>
-          <div>
+          <div className="footer-column">
             <p>© 2024 TravelMate. All rights reserved.</p>
             <p>© 2024 TravelMate. All rights reserved.</p>
             <p>© 2024 TravelMate. All rights reserved.</p>
             <p>© 2024 TravelMate. All rights reserved.</p>
           </div>
-          <div>
+          <div className="footer-column">
             <a>Privacy Policy</a>
             <a>Privacy Policy</a>
             <a>Privacy Policy</a>
