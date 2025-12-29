@@ -14,13 +14,17 @@ body {
   background: var(--white-color);
   display: flex;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 main {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+}
+
+.fullWindow {
+  width: 100%;
 }
 
 button {
@@ -46,14 +50,14 @@ button:focus-visible {
 }
 
 nav {
-  width: 100vw;
+  width: 100%;
   height: 60px;
   background-color: var(--white-color);
   display: flex;
   justify-content: flex-end;
   align-items: center;
   z-index: 5;
-  border-bottom: 1px solid var(--footer-color);
+  border-bottom: 1px solid var(--footer-top-text);
   margin-bottom: 5%;
 }
 
@@ -192,7 +196,7 @@ nav svg {
 }
 
 .locations-carousel {
-  width: 100vw;
+  width: 100%;
   display: flex;
   margin: 100px auto;
   overflow-x: auto;
@@ -395,12 +399,13 @@ nav svg {
 }
 
 .footer-twotier__top-container {
-  max-width: 1140px;
   margin: 0 auto;
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr;
-  /* Mobile-first: single column */
-  gap: 2rem;
+  grid-gap: 2rem;
+  gap: 5rem;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .footer-twotier__brand p {

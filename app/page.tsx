@@ -32,7 +32,7 @@ export default function App() {
   }
 
   return (
-    <div>
+    <div className="fullWindow">  
       <nav>
         <input type="checkbox" id="sidebar-active"></input>
         <label htmlFor="sidebar-active" className="open-sidebar-button">
@@ -641,7 +641,7 @@ export default function App() {
         <div className="footer-twotier__bottom">
           <div className="footer-twotier__bottom-container">
             <p className="footer-twotier__copyright">
-              &copy; 2024 Your Company, Inc. All rights reserved.
+              &copy; 2025 Jet Setter. All rights reserved.
             </p>
             <div className="footer-twotier__social" aria-label="Social Media">
               <ul>
