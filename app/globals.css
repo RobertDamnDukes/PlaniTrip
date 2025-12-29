@@ -14,8 +14,17 @@
   --accent-color: #0071FF;
   --text-color: #000000;
   --white-color: #ffffff;
-  --footer-color: #e9ecef;
-  
+
+
+  --footer-top-bg: #f8f9fa;
+  --footer-top-text: #6c757d;
+  --footer-top-heading: #343a40;
+  --footer-top-link-hover: #0056b3;
+
+  --footer-bottom-bg: #343a40;
+  --footer-bottom-text: #adb5bd;
+  --footer-bottom-link-hover: #ffffff;
+
 }
 
 @media (prefers-color-scheme: dark) {
