@@ -87,8 +87,8 @@ nav a:hover {
   ;
 }
 
-.spinOnHover:hover {
-  animation: spin 1s linear infinite;
+.marginToRight {
+  margin-right: 1vw;
 }
 
 nav .home-link {
