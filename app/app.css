@@ -70,6 +70,8 @@ nav {
 }
 
 nav a {
+  font-size: .900rem;
+  font-weight: bold;
   height: 100%;
   padding: 0 20px;
   display: flex;
@@ -83,6 +85,10 @@ nav a:hover {
   background-color: var(--hover-color);
   cursor: pointer;
   ;
+}
+
+.spinOnHover:hover {
+  animation: spin 1s linear infinite;
 }
 
 nav .home-link {
@@ -210,6 +216,7 @@ nav svg {
 }
 
 .dateInput {
+  box-shadow: 0 0 0 1px var(--primary-color);
   margin-left: auto;
   margin-right: auto;
   height: 2.5em;
