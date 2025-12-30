@@ -77,7 +77,7 @@ export default function App() {
             </div>
           </div>
           <button className="sign-up-button search-locations-go">
-            <div class="arrow-wrapper">
+            <div className="arrow-wrapper">
               Sign up
               <div className="arrow-wrapper">
                 <div className="arrow"></div>
