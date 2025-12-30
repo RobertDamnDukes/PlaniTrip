@@ -48,10 +48,10 @@ export default function App() {
           <a>Flights</a>
           <a className="home-link">About</a>
           <a className="marginToRight">
-            <button class="setting-btn">
-              <span class="bar bar1"></span>
-              <span class="bar bar2"></span>
-              <span class="bar bar1"></span>
+            <button className="setting-btn">
+              <span className="bar bar1"></span>
+              <span className="bar bar2"></span>
+              <span className="bar bar1"></span>
             </button>
           </a>
           <button className="sign-up-button">
