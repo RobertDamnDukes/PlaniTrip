@@ -164,6 +164,10 @@ nav svg {
   right: 0;
 }
 
+.search-locations-go {
+  height: 6rem;
+}
+
 #sidebar-active {
   display: none;
 }
@@ -506,7 +510,7 @@ nav svg {
 }
 
 .footer-twotier__links a {
-  color: var(--footer-top-text);
+  color: var(--footer-top-heading);
   text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
