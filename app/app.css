@@ -98,19 +98,19 @@ nav svg {
 }
 
 .sign-up-button {
-  --primary-color: #645bff;
+  height: 2rem;
   --secondary-color: #fff;
-  --hover-color: #111;
   --arrow-width: 10px;
   --arrow-stroke: 2px;
   box-sizing: border-box;
   border: 0;
-  border-radius: 20px;
-  color: var(--secondary-color);
-  padding: 1em 1.8em;
+  color: var(--white-color);
   background: var(--primary-color);
-  display: flex;
-  transition: 0.2s background;
+  transition: background .2s;
+  gap: .6em;
+  font-weight: 700;
+  font-size: small;
+  margin-right: 2%;
   align-items: center;
   gap: 0.6em;
   font-weight: bold;
@@ -121,7 +121,7 @@ nav svg {
   justify-content: center;
   align-items: center;
 }
- 
+
 .arrow {
   margin-top: 1px;
   width: var(--arrow-width);
@@ -135,7 +135,7 @@ nav svg {
   content: "";
   box-sizing: border-box;
   position: absolute;
-  border: solid var(--secondary-color);
+  border: solid var(--white-color);
   border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
   display: inline-block;
   top: -3px;
@@ -146,11 +146,11 @@ nav svg {
 }
 
 .sign-up-button:hover {
-  background-color: var(--hover-color);
+  background-color: var(--text-color-color);
 }
 
 .sign-up-button:hover .arrow {
-  background: var(--secondary-color);
+  background: var(--white-color);
 }
 
 .sign-up-button:hover .arrow:before {
