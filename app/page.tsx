@@ -15,14 +15,6 @@ const client = generateClient<Schema>();
 export default function App() {
   const [logoClickCount, setLogoClickCount] = useState(0);
 
-  function handleLogoClick() {
-    setLogoClickCount((prev) => {
-      const newCount = prev + 1;
-      console.log("Logo clicked:", newCount);
-      return newCount;
-    });
-  }
-
   return (
     <div className="fullWindow">
       <div className="planning-section">
