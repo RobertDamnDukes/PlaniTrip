@@ -1,5 +1,3 @@
-"use client";
-
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./app.css";
@@ -14,16 +12,6 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children, }: { children: React.ReactNode; }) {
-
-  const [logoClickCount, setLogoClickCount] = useState(0);
-
-  function handleLogoClick() {
-    setLogoClickCount((prev) => {
-      const newCount = prev + 1;
-      console.log("Logo clicked:", newCount);
-      return newCount;
-    });
-  }
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -37,7 +25,7 @@ export default function RootLayout({ children, }: { children: React.ReactNode; }
             <label htmlFor="sidebar-active" className="close-sidebar-button">
               <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e3e3e3"><path d="m251.33-204.67-46.66-46.66L433.33-480 204.67-708.67l46.66-46.66L480-526.67l228.67-228.66 46.66 46.66L526.67-480l228.66 228.67-46.66 46.66L480-433.33 251.33-204.67Z" /></svg>
             </label>
-            <a onClick={handleLogoClick}>Logo</a>
+            <a>Logo</a>
             <a className="active-link">Planning</a>
             <a>Flights</a>
             <a className="home-link">About</a>
