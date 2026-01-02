@@ -13,7 +13,6 @@ Amplify.configure(outputs);
 const client = generateClient<Schema>();
 
 export default function App() {
-  const [logoClickCount, setLogoClickCount] = useState(0);
 
   return (
     <div className="fullWindow">
