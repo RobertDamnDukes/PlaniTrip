@@ -1,8 +1,10 @@
+import { useState } from "react";
+import React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./app.css";
 import "./globals.css";
-import StartPlanning from "./page"
+import StartPlanning from "./startplanning/page"
+import GetLogin from "./login/page"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -40,7 +42,7 @@ export default function RootLayout() {
             </button>
           </div>
         </nav>
-        <StartPlanning/>
+        <StartPlanning />
         <footer className="footer-twotier" role="contentinfo">
           <div className="footer-twotier__top">
             <div className="footer-twotier__top-container">

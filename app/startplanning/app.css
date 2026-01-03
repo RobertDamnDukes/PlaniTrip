@@ -100,7 +100,6 @@
   display: none;
 }
 
-/*taking off display flex will stack the cards vertically. May need to change above overflow x into overflow y*/
 .group {
   display: flex;
   align-items: center;
