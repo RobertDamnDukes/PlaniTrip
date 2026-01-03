@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-
 import "./app.css";
 import "./globals.css";
+import startPlanning from "./page.tsx"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,11 +11,7 @@ export const metadata: Metadata = {
   description: "Save time planning so you have more time relaxing.",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout() {
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -44,7 +40,7 @@ export default function RootLayout({
             </button>
           </div>
         </nav>
-        {children}
+        <startPlanning/>
         <footer className="footer-twotier" role="contentinfo">
           <div className="footer-twotier__top">
             <div className="footer-twotier__top-container">
