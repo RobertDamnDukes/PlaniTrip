@@ -40,7 +40,7 @@ export default function RootLayout() {
             </button>
           </div>
         </nav>
-        <startPlanning/>
+        <StartPlanning/>
         <footer className="footer-twotier" role="contentinfo">
           <div className="footer-twotier__top">
             <div className="footer-twotier__top-container">

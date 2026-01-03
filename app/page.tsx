@@ -10,7 +10,7 @@ Amplify.configure(outputs);
 
 const client = generateClient<Schema>();
 
-export default function startPlanning() {
+export default function StartPlanning() {
 
   return (
     <div className="fullWindow">
