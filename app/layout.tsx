@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import StartPlanning from "./startplanning/page"
 import GetLogin from "./login/page"
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,6 +13,17 @@ export const metadata: Metadata = {
   title: "Jet Setter",
   description: "Save time planning so you have more time relaxing.",
 };
+
+const router = createBrowserRouter([
+  { 
+    path: "/",
+    element: <StartPlanning />,
+  },
+  { 
+    path: "/login",
+    element: <GetLogin />,
+  }
+]);
 
 export default function RootLayout() {
   return (
@@ -42,7 +54,7 @@ export default function RootLayout() {
             </button>
           </div>
         </nav>
-        <StartPlanning />
+        <RouterProvider router={router}/>
         <footer className="footer-twotier" role="contentinfo">
           <div className="footer-twotier__top">
             <div className="footer-twotier__top-container">
