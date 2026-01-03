@@ -1,5 +1,3 @@
-"use client";
-
 import { useState, useEffect } from "react";
 import { generateClient } from "aws-amplify/data";
 import type { Schema } from "@/amplify/data/resource";
@@ -12,7 +10,7 @@ Amplify.configure(outputs);
 
 const client = generateClient<Schema>();
 
-export default function App() {
+export default function startPlanning() {
 
   return (
     <div className="fullWindow">
