@@ -14,28 +14,28 @@ export default function GetLogin() {
 
     return (
         <div className="fullWindow">
-            <div class="wrapper">
-                <div class="card-switch">
-                    <label class="switch">
-                        <input type="checkbox" class="toggle"></input>
-                        <span class="slider"></span>
-                        <span class="card-side"></span>
-                        <div class="flip-card__inner">
-                            <div class="flip-card__front">
-                                <div class="title">Log in</div>
-                                <form class="flip-card__form" action="">
-                                    <input class="flip-card__input" name="email" placeholder="Email" type="email"></input>
-                                    <input class="flip-card__input" name="password" placeholder="Password" type="password"></input>
-                                    <button class="flip-card__btn">Let`s go!</button>
+            <div className="wrapper">
+                <div className="card-switch">
+                    <label className="switch">
+                        <input type="checkbox" className="toggle"></input>
+                        <span className="slider"></span>
+                        <span className="card-side"></span>
+                        <div className="flip-card__inner">
+                            <div className="flip-card__front">
+                                <div className="title">Log in</div>
+                                <form className="flip-card__form" action="">
+                                    <input className="flip-card__input" name="email" placeholder="Email" type="email"></input>
+                                    <input className="flip-card__input" name="password" placeholder="Password" type="password"></input>
+                                    <button className="flip-card__btn">Let`s go!</button>
                                 </form>
                             </div>
-                            <div class="flip-card__back">
-                                <div class="title">Sign up</div>
-                                <form class="flip-card__form" action="">
-                                    <input class="flip-card__input" placeholder="Name" type="name"></input>
-                                    <input class="flip-card__input" name="email" placeholder="Email" type="email"></input>
-                                    <input class="flip-card__input" name="password" placeholder="Password" type="password"></input>
-                                    <button class="flip-card__btn">Confirm!</button>
+                            <div className="flip-card__back">
+                                <div className="title">Sign up</div>
+                                <form className="flip-card__form" action="">
+                                    <input className="flip-card__input" placeholder="Name" type="name"></input>
+                                    <input className="flip-card__input" name="email" placeholder="Email" type="email"></input>
+                                    <input className="flip-card__input" name="password" placeholder="Password" type="password"></input>
+                                    <button className="flip-card__btn">Confirm!</button>
                                 </form>
                             </div>
                         </div>
